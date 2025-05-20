@@ -6,3 +6,4 @@ class Utils {
         script.echo 'Hello from shared library!'
     }
 }
+

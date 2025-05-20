@@ -1,0 +1,4 @@
+// resources/com/bne/templates/dockerfile.template
+FROM openjdk:11
+COPY ${appJar} /app/
+CMD ["java", "-jar", "/app/${appJar}"]
